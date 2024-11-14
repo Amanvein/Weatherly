@@ -74,6 +74,12 @@
       "languageVersion": "3.2"
     },
     {
+      "name": "get_it",
+      "rootUri": "file:///Users/amanmishra/.pub-cache/hosted/pub.dev/get_it-8.0.2",
+      "packageUri": "lib/",
+      "languageVersion": "3.0"
+    },
+    {
       "name": "http_parser",
       "rootUri": "file:///Users/amanmishra/.pub-cache/hosted/pub.dev/http_parser-4.0.2",
       "packageUri": "lib/",
@@ -200,7 +206,7 @@
       "languageVersion": "3.3"
     }
   ],
-  "generated": "2024-11-14T17:45:08.385580Z",
+  "generated": "2024-11-14T18:00:40.867578Z",
   "generator": "pub",
   "generatorVersion": "3.3.3"
 }

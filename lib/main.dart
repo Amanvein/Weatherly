@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:weatherly/dependencies.dart';
 
-void main() {
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await Dependencies().setUpDependencyInjection();
   runApp(const MyApp());
 }
 
@@ -63,7 +66,7 @@ class _MyHomePageState extends State<MyHomePage> {
         onPressed: _incrementCounter,
         tooltip: 'Increment',
         child: const Icon(Icons.add),
-      ), 
+      ),
     );
   }
 }
